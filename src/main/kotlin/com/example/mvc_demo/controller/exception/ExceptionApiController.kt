@@ -100,9 +100,10 @@ class ExceptionApiController {
 
     }
     @GetMapping("/hello")
-    fun hello(){
+    fun hello(): String {
         val list = mutableListOf<String>()
-        val temp = list[0]
+//        val temp = list[0]
+        return "hello"
     }
 
 
